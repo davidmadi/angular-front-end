@@ -1,0 +1,26 @@
+<!-- Default form login -->
+<div class="container fluid">
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 card card-body centered">
+              <p class="h4 mb-4">Login</p>
+                <!-- Email -->
+                <input [(ngModel)]="usuario.nome" type="text" class="form-control mb-4" placeholder="Usuário">
+
+                <!-- Password -->
+                <input [(ngModel)]="usuario.senha" type="password" class="form-control mb-4" placeholder="Senha">
+
+            <div class="d-flex justify-content-around">
+                <div>
+                    <!-- Remember me -->
+                    <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="defaultLoginFormRemember">
+                        <label class="custom-control-label" for="defaultLoginFormRemember">Remember me</label>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sign in button -->
+            <button class="btn btn-block btn-rounded btn-outline-success" type="submit" (click)="fazerLogin()">Sign in</button>
+    </div>
+  </div>
+</div>
