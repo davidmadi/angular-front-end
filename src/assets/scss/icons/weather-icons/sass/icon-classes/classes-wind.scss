@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Wind Variables 2.0
 
 $wind: "\f0b1";
@@ -13,20 +12,4 @@ $wind: "\f0b1";
   transform: rotate($val);
 }
 
-=======
-// Wind Variables 2.0
-
-$wind: "\f0b1";
-
-.#{$wi-css-prefix}-wind:before { content: $wind; }
-
-@mixin wind-rotate( $val: 0deg ) {
-  -webkit-transform: rotate($val);
-  -moz-transform: rotate($val);
-  -ms-transform: rotate($val);
-  -o-transform: rotate($val);
-  transform: rotate($val);
-}
-
->>>>>>> 88b567abdb510c7407784053c07511f9f7312bc5
 @import "classes-wind-degrees.scss";
